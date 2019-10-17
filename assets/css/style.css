@@ -15,6 +15,14 @@ body{
     
 }
 
+.btn-primary{
+    background-color: #4aaaa5;
+}
+
+.btn-primary:hover{
+    background-color: #399994;
+}
+
 .container-fluid{
     display: flex;
     flex-direction: column;
