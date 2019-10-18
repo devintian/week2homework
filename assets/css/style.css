@@ -94,8 +94,8 @@ span{
     
 }
 .section-container{
-    width: 700px;
-
+    width: 800px;
+    
     background-color: white;
     border: solid thin black;
     padding: 20px;
@@ -113,12 +113,20 @@ span{
     margin: 20px 0;
 }
 
-.img-responsive{
+.myResponsive{
+    margin: 10px 0px;
+    width:50%;
+    height:auto;
+}
+
+.image{
     float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    width: 500px;
-    height: auto;
+    margin: 0 20px 10px 0;
+}
+
+.myReponsive img{
+    width:50%;
+    height:auto;
 }
 
 .row3{
@@ -147,45 +155,35 @@ span{
     padding-top: 5px;
 
   }
-  .image1{
+
+
+/* .image1{
     position: relative;
     margin-left: 20px;
-    /* padding: 10px;
-    padding-left: 100px; */
     float: left;
 
-  }
+}
 
-  .image2{
+.image2{
     position: relative;
     margin-left: 20px;
-    /* padding: 10px;
-    padding-left: 100px; */
     float: left;
 
-  }
-  .image3{
+}
+.image3{
     position: relative;
     margin-left: 20px;
-    /* padding: 10px;
-    padding-left: 100px; */
     float: left;
-      
-
-  }
+}
   .image4{
     position: relative;
     margin-left: 20px;
-    /* padding: 10px;
-    padding-left: 100px; */
-    float: left;
 
-  }
+    float: left;
+}
   .image5{
     position: relative;
     margin-left: 20px;
-    /* padding: 10px;
-    padding-left: 100px; */
     float: left;
 
   }
@@ -194,10 +192,8 @@ span{
 .image6{
       position: relative;
       margin-left: 20px;
-      /* padding: 10px;
-      padding-left: 100px; */
       float: left;
-  }
+}   */
 
 
 .projectname{
@@ -207,7 +203,7 @@ span{
   background-color: #4aaaa5;
   padding:10px;
   bottom: 5px;
-  width: 250px;
+  width: 225px;
   height: 45px;
 }
 
@@ -230,17 +226,29 @@ span{
         padding: 0px;
 
     }
-    .img-responsive{
+    /* .img-responsive{
         max-width: 100%;
         display: block;
         height: auto;
-    }
-    .image1{
-        text-align: center;
-        width: 450px;
-        height: 350px;
+    } */
+    .section-container .col{
+        display: flex;
+        flex-direction: column;
     }
 
+    .image{
+        flex:1;
+        align-self: center;
+        margin:0px;
+        width: 100%;
+        height:auto;
+    }
+
+    .imgindex{
+        width:auto;
+        height:auto;
+    }
+    
     .row2{
         padding: 30px 5%;
     }
@@ -258,14 +266,14 @@ span{
 
         }
         
-        .img-responsive{
+        /* .img-responsive{
             width: 250px;
             height: 180px;
             float: left;
             margin-right: 20px;
             margin-bottom: 10px;
             
-        }
+        } */
   
     
      
@@ -273,21 +281,20 @@ span{
 
 @media screen and (min-width:980px){
     .section-container{
-        width: 960px;
-    
+        width: 700px;
         background-color: white;
         border: solid thin black;
         padding: 20px;
         
     }
-    .img-responsive{
+    /* .img-responsive{
         width: 250px;
         height: 180px;
         float: left;
         margin-right: 20px;
         margin-bottom: 10px;
         
-    }
+    } */
  
 
 }
