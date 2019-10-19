@@ -9,7 +9,7 @@ body{
     /* position: relative; */
     
     
-    height: 100vh;
+    height: 100%;
     background-image: url(../images/background.png);
     
     
@@ -43,9 +43,9 @@ body{
     background-color: white;
     margin: 0;
     width: 100%;
-    position: relative;
+    /* position: relative; */
 	border-bottom: solid thin #dddddd;
-	padding: 0 0 0 20%;
+	padding: 0 0 0 10%;
 }
 
 .name1{
@@ -84,18 +84,22 @@ span{
     color: lightgrey;
 }
 .row2{
-    clear: both;
+    /* clear: both; */
     flex: 1 0 auto;
     height:auto;
     width: 100%;
     margin: 0;
     background-image: url(../images/background.png);
-    padding: 30px 20%;
+    /* padding: 30px 20%; */
+    padding-left:10%;
+    padding-right:5%;
+    padding-bottom:10px;
+    padding-top:10px;
     
 }
 .section-container{
-    width: 800px;
-    
+    /* width: 800px; */
+    width: 100%;
     background-color: white;
     border: solid thin black;
     padding: 20px;
@@ -113,9 +117,10 @@ span{
     margin: 20px 0;
 }
 
-.myResponsive{
-    margin: 10px 0px;
-    width:50%;
+.portfolio-image{
+    margin-bottom:10px;
+    /* width:50%; */
+    width: 100%;
     height:auto;
 }
 
@@ -124,10 +129,10 @@ span{
     margin: 0 20px 10px 0;
 }
 
-.myReponsive img{
+/* .myReponsive img{
     width:50%;
     height:auto;
-}
+} */
 
 .row3{
     bottom: 0;
@@ -153,6 +158,7 @@ span{
     background-color: #ffffff;
     padding-left: 2px;
     padding-top: 5px;
+    height:max-content;
 
   }
 
@@ -197,15 +203,17 @@ span{
 
 
 .projectname{
-  position: absolute;
+  position: relative;
   text-align: center;
   color: #ffffff;
   background-color: #4aaaa5;
-  padding:10px;
-  bottom: 5px;
-  width: 225px;
+  padding:10px 0px;
+  bottom: 60px;
+  width: 100%;
   height: 45px;
 }
+
+
 
 
 
@@ -261,7 +269,7 @@ span{
     
 @media screen and (min-width:768px) and (max-width: 979px){
         .row1{
-            padding-left:20%;
+            padding-left:10%;
             padding-right: 0px;
 
         }
